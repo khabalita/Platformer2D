@@ -9,7 +9,7 @@ public partial class RunState<T> : State_base<T> where T : Player
 
     public override void Start()
     {
-        //
+        Context.animationPlayer.Play("Run");
     }
 
     public override void PhysicsUpdate(double delta)
