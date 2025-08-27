@@ -1,7 +1,8 @@
-[gd_scene load_steps=5 format=4 uid="uid://diu5a5511v6jn"]
+[gd_scene load_steps=6 format=4 uid="uid://diu5a5511v6jn"]
 
 [ext_resource type="Texture2D" uid="uid://cu4uhib4080dx" path="res://Assets/Tiles/Terrain (16x16).png" id="1_ruy65"]
 [ext_resource type="PackedScene" uid="uid://dkhh27q1fh032" path="res://Scenes/Player/player.tscn" id="2_sexgu"]
+[ext_resource type="PackedScene" uid="uid://bxhv05cd5hfny" path="res://Scenes/Fruits/Collectable.tscn" id="3_k7xh7"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_6bho1"]
 texture = ExtResource("1_ruy65")
@@ -387,3 +388,6 @@ tile_set = SubResource("TileSet_ot7ak")
 
 [node name="Player" parent="." instance=ExtResource("2_sexgu")]
 position = Vector2(40, 535)
+
+[node name="Collectable" parent="." instance=ExtResource("3_k7xh7")]
+position = Vector2(184, 542)
