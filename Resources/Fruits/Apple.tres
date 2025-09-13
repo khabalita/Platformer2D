@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="ItemResource" load_steps=3 format=3 uid="uid://c1rq8jku1pbjb"]
+
+[ext_resource type="Script" path="res://Resources/ItemResource.cs" id="1_xtdok"]
+[ext_resource type="SpriteFrames" uid="uid://b2rsriu3qmr8y" path="res://Scenes/Fruits/SpriteFrames/apple_frame.tres" id="2_geade"]
+
+[resource]
+script = ExtResource("1_xtdok")
+fruitName = "Apple"
+spriteFrames = ExtResource("2_geade")
